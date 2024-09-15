@@ -9,7 +9,7 @@
 3. All plot points should support optional hyperlinks to web pages
 4. All plot axes should support pseudolog scaling
 5. All plots should support subplot panels with titles
-6. All plots should support animations along axis (e.g., time)
+6. All plots should support animations along the axis (e.g., time)
 
 ### B. Global configuration default options (can be overridden by individual plots)
 1. Figure size and dimensions
@@ -43,6 +43,8 @@
        - Pearson coefficient
        - Confidence intervals
    - Note: t-SNE, UMAP, and PCA are special types of scatter plots that may build upon this foundation
+![2D](https://github.com/user-attachments/assets/7f2c04bf-bca2-4af0-9a2c-bf6a4c6f7792)
+
 2. 3D scatter
    - Input: Data frame (long and wide formats)
    - Options
@@ -50,6 +52,8 @@
      - Shape label
      - Individual point label
      - Scale point size and opacity to indicate depth
+![3D](https://github.com/user-attachments/assets/83816a42-c92c-418b-8b95-014ea56d3813)
+
 3. Line
    - Input: Data frame (long and wide formats)
    - Options
@@ -59,3 +63,5 @@
      - Error bars
      - Smoothing
    - Note: AUC, ROC, and VAF are special types of line plots that may build upon this foundation
+![line plot](https://github.com/user-attachments/assets/00ec1bf3-0987-4612-a631-202932866b03)
+
