@@ -64,4 +64,3 @@
      - Smoothing
    - Note: AUC, ROC, and VAF are special types of line plots that may build upon this foundation
 ![line plot](https://github.com/user-attachments/assets/00ec1bf3-0987-4612-a631-202932866b03)
-
